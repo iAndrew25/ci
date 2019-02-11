@@ -6,5 +6,4 @@ stages:
 project_build:
   stage: build
   script:
-    - npm install
-    - npm run build 
+    - echo 'salutare'
