@@ -1,0 +1,10 @@
+language: node_js
+
+stages:
+  -  build
+
+project_build:
+  stage: build
+  script:
+    - npm install
+    - npm run build 
